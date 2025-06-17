@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Amsyar's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Amsyar</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Hello, I'm Muhammad Amsyar</h2>
+        <p>AI Student | AV Technician | Problem Solver</p>
+        <a class="btn" href="projects.html">View My Projects</a>
+      </div>
+      <div class="hero-img">
+        <!-- ⚠️ Replace this image file with your own -->
+        <img src="images/profile.jpg" alt="My profile photo">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Muhammad Amsyar Bin Hazalan</p>
+  </footer>
+</body>
+</html>
